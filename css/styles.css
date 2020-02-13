@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#apartment-list {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  text-align: left;
+}
+
+#apartment-view {
+  width: 50%;
+  height: 300px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.apt-list-item {
+   border: 1px solid #ccc;
+   padding: 8px;
+   border-radius: 6px;
+   margin-bottom: 10px;
+}
+
+.apt-list-item:hover {
+   background-color: #eee;
+   cursor: pointer;
+}
+
+/* select all p tags that have class artist-name
+ */
+p {
+  margin: 0;
+}
+
+.apt-list-item .apartment-type {
+  font-size: .7rem
+}
