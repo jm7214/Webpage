@@ -1,8 +1,8 @@
 
 $('.apt-list-item').on('click', function() {
-	// pull out the album cover url from the element's attributes
+	// pull out the apartment url from the element's attributes
 	var aptImageUrl = $(this).attr('data-apt-image')
-  // log the album cover url to the console
+  // log the apartment url to the console
   console.log(aptImageUrl)
 
     $('#apartment-view').empty()

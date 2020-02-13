@@ -13,7 +13,7 @@ body {
 #apartment-view {
   width: 50%;
   height: 300px;
-  padding-left: 30px;
+  padding-left: 8px;
   display: inline-block;
   background-size: contain;
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@ body {
    cursor: pointer;
 }
 
-/* select all p tags that have class artist-name
+/* select all p tags that have class apartment
  */
 p {
   margin: 0;
